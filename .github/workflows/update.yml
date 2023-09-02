@@ -22,6 +22,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Import key
+        env: 
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}      
+        run: |
+          echo $PRIVATE_KEY > repo-key.asc
+          gpg --import repo-key.asc
       - name: Update packages
         env: 
             KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
