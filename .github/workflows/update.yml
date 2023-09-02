@@ -24,12 +24,10 @@ jobs:
           pip install -r requirements.txt
       - name: Import key
         env: 
+          # Imported using `gpg --export-secret-key "Discord Apt Repository" | base64 > private.pgp`
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}      
         run: |
-          echo $PRIVATE_KEY > repo-key.asc
-          ls -l repo-key.asc
-          file repo-key.asc
-          gpg --import repo-key.asc
+          echo -n "$PRIVATE_KEY" | base64 --decode | gpg --import
       - name: Update packages
         env: 
             KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
