@@ -27,7 +27,8 @@ jobs:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}      
         run: |
           echo $PRIVATE_KEY > repo-key.asc
-          cat repo-key.asc
+          ls -l repo-key.asc
+          file repo-key.asc
           gpg --import repo-key.asc
       - name: Update packages
         env: 
