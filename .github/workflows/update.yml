@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +27,7 @@ jobs:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}      
         run: |
           echo $PRIVATE_KEY > repo-key.asc
+          cat repo-key.asc
           gpg --import repo-key.asc
       - name: Update packages
         env: 
