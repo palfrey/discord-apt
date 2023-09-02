@@ -11,4 +11,4 @@ debian/Release.gz: debian/Release
 	cd debian && gzip -9c Release > Release.gz
 
 debian/Release.gpg: debian/Release
-	cd debian && rm -f Release.gpg && gpg -abs -o Release.gpg --local-user "Discord Apt Repository" Release
+	cd debian && rm -f Release.gpg && (echo ${KEY_PASSPHRASE} | gpg --pinentry-mode loopback --passphrase-fd 0 -abs -o Release.gpg --local-user "Discord Apt Repository" Release)
