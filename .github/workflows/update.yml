@@ -1,0 +1,36 @@
+name: Update discord
+
+on: 
+  schedule:
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Update packages
+        env: 
+            KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
+        run: |
+            python get_new_package.py
+            make debian/Release.gpg
+      - name: Commit and push if changed
+        run: |-
+            git diff
+            git config --global user.email "repo-bot@example.com"
+            git config --global user.name "repo-bot"
+            git add -A
+            git commit -m "Add new discord file" || exit 0
+            git push
