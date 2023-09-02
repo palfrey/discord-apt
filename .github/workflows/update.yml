@@ -32,7 +32,7 @@ jobs:
         env: 
             KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
         run: |
-            python get_new_package.py
+            python get_new_package.py || exit 0
             make debian/Release.gpg
       - name: Commit and push if changed
         run: |-
