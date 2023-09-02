@@ -10,8 +10,10 @@ Usage instructions
 3. `sudo apt-get update`
 4. `sudo apt-get install discord`
 
-Update instructions
+Manual update instructions
 --
+This should not be needed, as `.github/workflows/update.yml` should do this, but just in case..
+
 1. This repo contains some large files, so install [Git LFS](https://git-lfs.com/) before checking out the repo.
 2. `pip install -r requirements.txt`
 3. `python get_new_package.py`
