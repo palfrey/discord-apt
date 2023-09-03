@@ -25,10 +25,6 @@ jobs:
           python-version: 3.9
       - name: Install dependencies
         run: |
-          ls -l debian/pool  
-          git lfs fetch
-          git lfs checkout
-          ls -l debian/pool
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Update packages
@@ -36,6 +32,10 @@ jobs:
             KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
         run: |
             python get_new_package.py || exit 0
+            ls -l debian/pool  
+            git lfs fetch
+            git lfs checkout
+            ls -l debian/pool            
             make debian/Release.gpg
       - name: Commit and push if changed
         run: |-
