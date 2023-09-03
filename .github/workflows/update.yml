@@ -12,8 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          lfs: true      
       - name: Import key
         env: 
           # Imported using `gpg --export-secret-key "Discord Apt Repository" | base64 > private.pgp`
@@ -26,6 +24,7 @@ jobs:
           python-version: 3.9
       - name: Install dependencies
         run: |
+          git lfs checkout
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Update packages
