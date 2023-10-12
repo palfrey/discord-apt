@@ -38,10 +38,13 @@ jobs:
             ls -l debian/pool            
             make debian/Release.gpg
       - name: Commit and push if changed
+        env:
+          MY_TOKEN: ${{ secrets.MY_TOKEN }}      
         run: |-
             git diff
             git config --global user.email "repo-bot@example.com"
             git config --global user.name "repo-bot"
             git add -A
             git commit -m "Add new discord file" || exit 0
+            git remote set-url origin https://${MY_TOKEN}@github.com/palfrey/discord-apt
             git push
