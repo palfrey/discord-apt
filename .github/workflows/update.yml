@@ -12,7 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_TOKEN }} 
       - name: Import key
         env: 
           # Imported using `gpg --export-secret-key "Discord Apt Repository" | base64 > private.pgp`
@@ -38,13 +40,10 @@ jobs:
             ls -l debian/pool            
             make debian/Release.gpg
       - name: Commit and push if changed
-        env:
-          MY_TOKEN: ${{ secrets.MY_TOKEN }}      
         run: |-
             git diff
             git config --global user.email "repo-bot@example.com"
             git config --global user.name "repo-bot"
             git add -A
             git commit -m "Add new discord file" || exit 0
-            git remote set-url origin https://${MY_TOKEN}@github.com/palfrey/discord-apt
             git push
