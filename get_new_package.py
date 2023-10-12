@@ -10,15 +10,17 @@ url = initial_req.headers["Location"]
 filename = url.split("/")[-1]
 debian_pool = Path(__file__).parent.joinpath("debian", "pool")
 local_path = debian_pool.joinpath(filename)
+for existing in debian_pool.glob("*.deb"):
+    if existing == local_path:
+        continue
+    print("removing", existing)
+    existing.unlink()
+
 if not local_path.exists():
-    print("removing old")
-    for existing in debian_pool.glob("*.deb"):
-        existing.unlink()
     print("getting", filename)
     with requests.get(url, stream=True) as r:
         with local_path.open('wb') as f:
-            shutil.copyfileobj(r.raw, f)
-    
+            shutil.copyfileobj(r.raw, f)        
     exit(0)    
 else:
     print(f"Already have {filename}")
