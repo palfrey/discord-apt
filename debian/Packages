@@ -1,15 +1,15 @@
 Package: discord
-Version: 0.0.36
+Version: 0.0.37
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
-Installed-Size: 224960
+Installed-Size: 224968
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.36.deb
-Size: 92495960
-MD5sum: 185831a38339c229556101096e78382e
-SHA1: b31c4c7fbf8c4c118e5aa2da308364b1c0978625
-SHA256: 5d401ef04f1735072d69fc03694a8730d62b978b42a53f430c80296ef64018e5
+Filename: ./pool/discord-0.0.37.deb
+Size: 92500948
+MD5sum: 7ea8e12c6c46a30c35ac83d4ee0c4596
+SHA1: 21985d0ebb01d82ef11522a5fb7fedc57e60075d
+SHA256: df3b319f08d1ba39420d95071c08d1341c3f3104484089336029eec1f6075883
 Section: net
 Priority: optional
 Homepage: https://discord.com
