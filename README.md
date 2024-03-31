@@ -12,6 +12,13 @@ Usage instructions
 3. `sudo apt-get update`
 4. `sudo apt-get install discord`
 
+Commands:
+
+```shell
+curl -fSsL https://palfrey.github.io/discord-apt/discord-apt.gpg.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/discord-apt.gpg > /dev/null
+echo "deb [arch=$(dpkg-architecture -q DEB_HOST_ARCH) signed-by=/etc/apt/keyrings/discord-apt.gpg] https://palfrey.github.io/discord-apt/debian/ ./" | sudo tee /etc/apt/sources.list.d/discord.list
+```
+
 Manual update instructions
 --
 This should not be needed, as `.github/workflows/update.yml` should do this, but just in case..
