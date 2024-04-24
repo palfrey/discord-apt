@@ -33,7 +33,7 @@ jobs:
         env: 
             KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
         run: |
-            python check_For_new.py || exit 0
+            python check_for_new.py || exit 0
             git lfs fetch
             git lfs checkout
             ls -l debian/pool
