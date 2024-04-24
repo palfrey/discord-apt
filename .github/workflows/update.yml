@@ -33,11 +33,12 @@ jobs:
         env: 
             KEY_PASSPHRASE: ${{ secrets.KEY_PASSPHRASE }}
         run: |
-            python get_new_package.py || exit 0
-            ls -l debian/pool  
+            python check_For_new.py || exit 0
             git lfs fetch
             git lfs checkout
-            ls -l debian/pool            
+            ls -l debian/pool
+            python get_new_package.py
+            ls -l debian/pool
             make debian/Release.gpg
       - name: Commit and push if changed
         run: |-
