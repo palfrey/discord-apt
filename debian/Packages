@@ -5,7 +5,7 @@ Maintainer: Discord Maintainer Team <native-team@discord.com>
 Installed-Size: 248440
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.52.deb
+Filename: ./pool/discord-0.0.53.deb
 Size: 100957682
 MD5sum: b8b93634baaf3e38ed54837a21fb61c5
 SHA1: 09c1e50c04e497fee95d01416de99e7e0fab410a
