@@ -1,24 +1,23 @@
 from pathlib import Path
 import shutil
 import requests
-from sys import exit
+from sys import exit, argv
+
+root = Path(__file__).parent
+debian = root.joinpath("debian")
 
 initial_req = requests.get("https://discord.com/api/download?platform=linux&format=deb", allow_redirects=False)
 initial_req.raise_for_status()
 
+packages = debian.joinpath("Packages").open().read()
+
 url = initial_req.headers["Location"]
 filename = url.split("/")[-1]
-debian_pool = Path(__file__).parent.joinpath("debian", "pool")
-local_path = debian_pool.joinpath(filename)
-for existing in debian_pool.glob("*.deb"):
-    if existing == local_path:
-        continue
-    print("removing", existing)
-    existing.unlink()
 
-if not local_path.exists():
+if filename not in packages or argv[1] == "--force":
     print("getting", filename)
     with requests.get(url, stream=True) as r:
+        local_path = debian.joinpath("pool", filename)
         with local_path.open('wb') as f:
             shutil.copyfileobj(r.raw, f)        
     exit(0)    

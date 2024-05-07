@@ -16,10 +16,9 @@ Manual update instructions
 --
 This should not be needed, as `.github/workflows/update.yml` should do this, but just in case..
 
-1. This repo contains some large files, so install [Git LFS](https://git-lfs.com/) before checking out the repo.
-2. `pip install -r requirements.txt`
-3. `python get_new_package.py`
+1. `pip install -r requirements.txt`
+2. `python get_new_package.py`
     - If this says `already have discord-<version>.deb` and there's no new .debs in the repo, there's nothing to do further.
-4. `export KEY_PASSPHRASE=<key phrase for the Discord Apt Repository key>`
-5. `make debian/Release.gpg`, which should regenerate all the other files.
-6. Commit, push, etc and the Github Pages automation will deal with the rest.
+3. `export KEY_PASSPHRASE=<key phrase for the Discord Apt Repository key>`
+4. `make debian/Release.gpg`, which should regenerate all the other files.
+5. Commit, push, etc and the Github Pages automation will deal with the rest.
