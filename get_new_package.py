@@ -14,7 +14,7 @@ packages = debian.joinpath("Packages").open().read()
 url = initial_req.headers["Location"]
 filename = url.split("/")[-1]
 
-if filename not in packages or argv[1] == "--force":
+if filename not in packages or (len(argv) > 1 and argv[1] == "--force"):
     print("getting", filename)
     with requests.get(url, stream=True) as r:
         local_path = debian.joinpath("pool", filename)
