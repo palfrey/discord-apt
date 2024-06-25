@@ -3,12 +3,24 @@ Discord APT repository
 
 As has been [repeatedly asked for](https://support.discord.com/hc/en-us/community/posts/360031737491-Give-us-an-apt-repository-Linux-), this is an APT repository for Discord. Note that I do not in anyway claim ownership over the .deb files here, this is just merely a nicer packaging option. Discord: if you want to do this yourself, please tell me about it and I'll point people there instead!
 
-Usage instructions
+## Usage instructions
 --
-1. Create a file `/etc/apt/sources.list.d/discord.list` with the contents `deb https://palfrey.github.io/discord-apt/debian/ ./`
-2. Download the file https://palfrey.github.io/discord-apt/discord-apt.gpg.asc to `/etc/apt/trusted.gpg.d`
-3. `sudo apt-get update`
-4. `sudo apt-get install discord`
+1. Import discord-apt signing key:
+##
+    `wget -q https://palfrey.github.io/discord-apt/discord-apt.gpg.asc -O- | sudo tee /etc/apt/keyrings/discord-apt.gpg.asc > /dev/null`
+
+3. The fingerprint should be `2D3E44DC23D20638A854659F8F8F44E1B741DD1E`. You may check it with the following command:
+##
+    `gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "2D3E44DC23D20638A854659F8F8F44E1B741DD1E") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}`
+
+4. Add the Discord APT repository to your sources list:
+##
+    `echo "deb https://palfrey.github.io/discord-apt/debian/ ./" | sudo tee -a /etc/apt/sources.list.d/discord.list > /dev/null`
+
+6. Update package list and install the discord .deb package
+##
+    `sudo apt update && sudo apt install discord`
+
 
 Manual update instructions
 --
