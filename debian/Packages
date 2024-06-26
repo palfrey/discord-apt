@@ -55,3 +55,22 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
+Package: discord
+Version: 0.0.58
+Architecture: amd64
+Maintainer: Discord Maintainer Team <native-team@discord.com>
+Installed-Size: 252672
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-0.0.58.deb
+Size: 102723962
+MD5sum: fd0f12d76bde03e2a69ef524da2e2080
+SHA1: e98619778958a9689b4d670335202b05966ff1cd
+SHA256: 3a2f1fe6b9d69cd8141f42a204ad3dff483a4301fbe755711b545b908d61b8af
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
