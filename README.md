@@ -7,19 +7,19 @@ As has been [repeatedly asked for](https://support.discord.com/hc/en-us/communit
 --
 1. Import discord-apt signing key:
 ##
-    `wget -q https://palfrey.github.io/discord-apt/discord-apt.gpg.asc -O- | sudo tee /etc/apt/keyrings/discord-apt.gpg.asc > /dev/null`
+    wget -q https://palfrey.github.io/discord-apt/discord-apt.gpg.asc -O- | sudo tee /etc/apt/keyrings/discord-apt.gpg.asc > /dev/null
 
-3. The fingerprint should be `2D3E44DC23D20638A854659F8F8F44E1B741DD1E`. You may check it with the following command:
+2. The fingerprint should be `2D3E44DC23D20638A854659F8F8F44E1B741DD1E`. You may check it with the following command:
 ##
-    `gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "2D3E44DC23D20638A854659F8F8F44E1B741DD1E") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}`
+    gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "2D3E44DC23D20638A854659F8F8F44E1B741DD1E") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}
 
-4. Add the Discord APT repository to your sources list:
+3. Add the Discord APT repository to your sources list:
 ##
-    `echo "deb https://palfrey.github.io/discord-apt/debian/ ./" | sudo tee -a /etc/apt/sources.list.d/discord.list > /dev/null`
+    echo "deb https://palfrey.github.io/discord-apt/debian/ ./" | sudo tee -a /etc/apt/sources.list.d/discord.list > /dev/null
 
-6. Update package list and install the discord .deb package
+4. Update package list and install the discord .deb package
 ##
-    `sudo apt update && sudo apt install discord`
+    sudo apt update && sudo apt install discord
 
 
 Manual update instructions
