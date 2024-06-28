@@ -11,7 +11,7 @@ As has been [repeatedly asked for](https://support.discord.com/hc/en-us/communit
 
 2. The fingerprint should be `2D3E44DC23D20638A854659F8F8F44E1B741DD1E`. You may check it with the following command:
 ##
-    gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "2D3E44DC23D20638A854659F8F8F44E1B741DD1E") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}
+    gpg -n -q --import --import-options import-show /etc/apt/keyrings/discord-apt.gpg.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "2D3E44DC23D20638A854659F8F8F44E1B741DD1E") print "\nThe key fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}
 
 3. Add the Discord APT repository to your sources list:
 ##
