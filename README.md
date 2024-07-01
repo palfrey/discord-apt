@@ -10,6 +10,8 @@ Usage instructions
 3. `sudo apt-get update`
 4. `sudo apt-get install discord`
 
+BTW, if you want full-colour emojis, install `fonts-noto-color-emoji`. The discord packages really should depend on that, but apparently don't for some reason.
+
 Manual update instructions
 --
 This should not be needed, as `.github/workflows/update.yml` should do this, but just in case..
