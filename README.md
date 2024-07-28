@@ -12,6 +12,8 @@ Usage instructions
 
 BTW, if you want full-colour emojis, install `fonts-noto-color-emoji`. The discord packages really should depend on that, but apparently don't for some reason.
 
+(I have no interest in PRs to improve these instructions or helper scripts for this. They're not very hard, but I don't want to provide free support here for anyone who can't follow those instructions. If you disagree with this, either bug Discord into supporting this themselves or fork this repo and do whatever in your fork.)
+
 Manual update instructions
 --
 This should not be needed, as `.github/workflows/update.yml` should do this, but just in case..
