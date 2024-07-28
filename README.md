@@ -22,8 +22,6 @@ This should not be needed, as `.github/workflows/update.yml` should do this, but
 4. `make debian/Release.gpg`, which should regenerate all the other files.
 5. Commit, push, etc and the Github Pages automation will deal with the rest.
 
-The grammar and formatting in the tutorial you provided are mostly correct, but here's a slightly improved version:
-
 ## Install Using Script
 
 1. **Download the script:**
