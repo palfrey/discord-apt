@@ -12,8 +12,14 @@ packages = debian.joinpath("Packages").open().read()
 ###########
 
 
-def verify_for_package(json_package_path, url, filename):
+def verify_for_package(json_package_path, base_url):
     global packages
+
+    initial_req = requests.get(base_url, allow_redirects=False)
+    initial_req.raise_for_status()
+    url = initial_req.headers["Location"]
+    filename = url.split("/")[-1]
+
     packages_list = Path(json_package_path)
     if filename not in packages or (len(argv) > 1 and argv[1] == "--force"):
         with packages_list.open() as raw_packages:
@@ -41,38 +47,25 @@ def verify_for_package(json_package_path, url, filename):
         return 1
 
 
-# For Stable Version
-####################
-stable_initial_req = requests.get(
-    "https://discord.com/api/download?platform=linux&format=deb", allow_redirects=False)
-stable_initial_req.raise_for_status()
+versions = {
+    "stable": {
+        "url": "https://discord.com/api/download?platform=linux&format=deb",
+        "package_json": "stable_packages.json"
+    },
+    "ptb": {
+        "url": "https://discord.com/api/download/ptb?platform=linux&format=deb",
+        "package_json": "ptb_packages.json"
+    },
+    "canary": {
+        "url": "https://discord.com/api/download/canary?platform=linux&format=deb",
+        "package_json": "canary_packages.json"
+    }
+}
 
-stable_url = stable_initial_req.headers["Location"]
-stable_filename = stable_url.split("/")[-1]
+return_code = 1
 
-verify_for_package("stable_packages.json", stable_url, stable_filename)
-####################
+for _version_name, version in versions.items():
+    code = verify_for_package(version["package_json"], version["url"])
+    return_code = min(code, return_code)
 
-# For PTB Version
-#################
-ptb_initial_req = requests.get(
-    "https://discord.com/api/download/ptb?platform=linux&format=deb", allow_redirects=False)
-ptb_initial_req.raise_for_status()
-
-ptb_url = ptb_initial_req.headers["Location"]
-ptb_filename = ptb_url.split("/")[-1]
-
-verify_for_package("ptb_packages.json", ptb_url, ptb_filename)
-#################
-
-# For Canary Version
-####################
-canary_initial_req = requests.get(
-    "https://discord.com/api/download/canary?platform=linux&format=deb", allow_redirects=False)
-canary_initial_req.raise_for_status()
-
-canary_url = canary_initial_req.headers["Location"]
-canary_filename = canary_url.split("/")[-1]
-
-verify_for_package("canary_packages.json", canary_url, canary_filename)
-####################
+exit(return_code)
