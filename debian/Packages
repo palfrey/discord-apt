@@ -1,15 +1,15 @@
-Package: discord-canary
-Version: 0.0.466
+Package: discord
+Version: 0.0.59
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
-Installed-Size: 257848
+Installed-Size: 252672
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.466.deb
-Size: 104515246
-MD5sum: 7fdc611ddf616ecbfa71f625e6d2a6bd
-SHA1: 80240fff1fcafd421975b66ea1bc1a88bbdd60aa
-SHA256: ce670d70a9c4f67ce3bac22c61600ca93a17998ac722566c9cb115f260c2a500
+Filename: ./pool/discord-0.0.59.deb
+Size: 102724332
+MD5sum: 2c58c8d501607fa4825edaac8c7fc837
+SHA1: 42c20acabaf8b934f401f736d3adc72c37580d05
+SHA256: 9a164c549cf60ed35e253448cd699073e75f52d6a2e600af3a8d3150d20983ef
 Section: net
 Priority: optional
 Homepage: https://discord.com
@@ -17,18 +17,75 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
-Package: discord-ptb
-Version: 0.0.98
+Package: discord
+Version: 0.0.60
+Architecture: amd64
+Maintainer: Discord Maintainer Team <native-team@discord.com>
+Installed-Size: 253968
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-0.0.60.deb
+Size: 103032666
+MD5sum: 67127881b2105bd1480ff25914864789
+SHA1: 3d79afafb40937f014e1bb55dfcc172e3cbde003
+SHA256: dc8264ad01aeb2f7316e38dc72aa5714e4b3af8e317da31db1777a993656cb0c
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord
+Version: 0.0.61
+Architecture: amd64
+Maintainer: Discord Maintainer Team <native-team@discord.com>
+Installed-Size: 254036
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-0.0.61.deb
+Size: 103054400
+MD5sum: 5924bf63b1334f880ffe7403db703601
+SHA1: cb66c96d03861408e5fab80ae0bc14a227c6e00f
+SHA256: 818c998f5a91caec55dc3076788f73e07f4a91f8c96233e9f8f2cdd60cfca4b6
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord
+Version: 0.0.62
+Architecture: amd64
+Maintainer: Discord Maintainer Team <native-team@discord.com>
+Installed-Size: 254064
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-0.0.62.deb
+Size: 103057564
+MD5sum: 02c8eb4e1a2d3e3787bd0caf4eaa107d
+SHA1: 3102fb3cfd5c7cbea5dde20c651cb9373567f4fd
+SHA256: 6f9773a9101e5ebf6dfd3c44692426f8c4263dad8594e2e9a415f212f2a40298
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord
+Version: 0.0.63
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
 Installed-Size: 254060
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-ptb-0.0.98.deb
-Size: 103058300
-MD5sum: 686e06d874d3d36ab60b619cd0d6544c
-SHA1: d02dc453e7ff3c152b6aa99f2e6512175f2961ca
-SHA256: e16522545b5575833c4ac0c875ccfe5fd99cfb8729ffc70459a0f38419f1348c
+Filename: ./pool/discord-0.0.63.deb
+Size: 103057530
+MD5sum: 52b992a4a660068c1ade675cdb8f9f50
+SHA1: a133957c5b8dcd9758700635751ad43071763dae
+SHA256: 0e2dba481628a78dbce6690e66a1f1ecc1684f01c35130cfe07a35b836879bbc
 Section: net
 Priority: optional
 Homepage: https://discord.com
