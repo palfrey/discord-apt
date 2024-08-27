@@ -9,6 +9,7 @@ from sys import exit, argv
 root = Path(__file__).parent
 debian = root.joinpath("debian")
 packages = debian.joinpath("Packages").open().read()
+MAX_PACKAGES = 3
 ###########
 
 
@@ -36,7 +37,7 @@ def get_all_packages(json_package_path: str, base_url: str) -> None:
     if filename not in packages or (len(argv) > 1 and argv[1] == "--force"):
         existing_packages[filename] = url
         sorted_keys = sorted(existing_packages.keys())
-        while len(existing_packages) > 5:
+        while len(existing_packages) > MAX_PACKAGES:
             key = sorted_keys[0]
             del existing_packages[key]
             sorted_keys = sorted_keys[1:]
