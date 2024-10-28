@@ -1,0 +1,6 @@
+discord-repo/
+.debhelper/
+*-build-stamp
+*.log
+*.substvars
+files
