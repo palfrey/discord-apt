@@ -1,0 +1,12 @@
+Source: discord-repo
+Maintainer: Tom Parker-Shemilt <palfrey@tevp.net>
+Section: misc
+Priority: extra
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.2
+
+Package: discord-repo
+Architecture: all
+Depends: ${misc:Depends} fonts-noto-color-emoji
+Description: APT repository config for discord
+ APT repository config for discord
