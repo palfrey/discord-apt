@@ -1,7 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    ":dependencyDashboard",
+    ":ignoreModulesAndTests",
+    "replacements:all",
+    "workarounds:all"
   ],
   "packageRules": [
     {
