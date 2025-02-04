@@ -6,7 +6,7 @@
 #
 build==1.0.0
     # via pip-tools
-certifi==2023.7.22
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.2.0
     # via requests
