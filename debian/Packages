@@ -56,25 +56,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-canary
-Version: 0.0.587
-Architecture: amd64
-Maintainer: Discord Maintainer Team <native-team@discord.com>
-Installed-Size: 255548
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.587.deb
-Size: 101944360
-MD5sum: 67bbdb456576257dc41182c2c27279f1
-SHA1: cb9bc4d3506bbd28fc9b286e5f8007e894d48390
-SHA256: 4971c1e62ae783867a1e868d9cfcd3f269cb0b21bf9d39ce9afe8079c3131d0c
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-canary
 Version: 0.0.588
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
@@ -112,18 +93,37 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
-Package: discord-ptb
-Version: 0.0.130
+Package: discord-canary
+Version: 0.0.590
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
-Installed-Size: 253876
+Installed-Size: 255548
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-ptb-0.0.130.deb
-Size: 101320252
-MD5sum: d28d2e8aca0e0214f57f95dd9056f7ce
-SHA1: c15a96f7caa15755361d47b98ff08309274668e0
-SHA256: e1a6279083ce2c8e1302a695ed4004c349ba42dbd5eb2e36d25e83049c12b011
+Filename: ./pool/discord-canary-0.0.590.deb
+Size: 101944350
+MD5sum: ef5c83b19c27b7db5c51df8e4437831b
+SHA1: df26ecf3de718957be99895605b2449136d4e5ba
+SHA256: 0134209e0bef4eab23a652b31743c359c8d2436684a947e2869a29dd806ef366
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-ptb
+Version: 0.0.131
+Architecture: amd64
+Maintainer: Discord Maintainer Team <native-team@discord.com>
+Installed-Size: 255516
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-ptb-0.0.131.deb
+Size: 101911148
+MD5sum: 80fdaeae2458723866c82dadcfcf0a69
+SHA1: 2fbea2b1e25b456cf78b9e99872e996c24c4d09a
+SHA256: c72f124a456d5eafc14dfa28650c53c2241ddf459f1978667561476da94938a0
 Section: net
 Priority: optional
 Homepage: https://discord.com
