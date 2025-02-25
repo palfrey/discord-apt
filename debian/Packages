@@ -56,25 +56,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-canary
-Version: 0.0.594
-Architecture: amd64
-Maintainer: Discord Maintainer Team <native-team@discord.com>
-Installed-Size: 255548
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.594.deb
-Size: 101944334
-MD5sum: 0fe07b09e2077409f7b017efe41c3f5f
-SHA1: afece4dc5631404e49e428bf9a742978b62a0356
-SHA256: b96c7f3209774e0825e54e67437d830b572f11c05dbde1f584ff88563da19014
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-canary
 Version: 0.0.595
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
@@ -105,6 +86,25 @@ Size: 101944246
 MD5sum: 554dea97d0d4258e0c5e3b56d67786f3
 SHA1: 451c6a8a6819140042ddb385b59b5297d370c1a8
 SHA256: 5237872b092755b799c13478d060daa742ad0c735d6d348ac2082933028151fe
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-canary
+Version: 0.0.597
+Architecture: amd64
+Maintainer: Discord Maintainer Team <native-team@discord.com>
+Installed-Size: 255548
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-canary-0.0.597.deb
+Size: 101944368
+MD5sum: 7b1601b616084cf8ddbb64e91ad58339
+SHA1: 6dfcabce881ae2df87736e2c58c6e7657bede87e
+SHA256: d3bff48dd82950edbd34bbcc6429faa1012e04e0e1b71c767ecc30323365b0d3
 Section: net
 Priority: optional
 Homepage: https://discord.com
