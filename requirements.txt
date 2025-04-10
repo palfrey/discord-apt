@@ -31,9 +31,9 @@ tomli==2.2.1
     #   build
     #   pip-tools
     #   pyproject-hooks
-typing-extensions==4.13.1
+typing-extensions==4.13.2
     # via importlib-metadata
-urllib3==2.3.0
+urllib3==2.4.0
     # via requests
 wheel==0.46.1
     # via pip-tools
