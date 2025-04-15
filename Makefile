@@ -12,3 +12,15 @@ debian/Release.gz: debian/Release
 
 debian/Release.gpg: debian/Release
 	cd debian && rm -f Release.gpg && (echo ${KEY_PASSPHRASE} | gpg --pinentry-mode loopback --passphrase-fd 0 -abs -o Release.gpg --local-user "Discord Apt Repository" Release)
+
+.venv/bin/python:
+	uv venv
+
+sync: .venv/bin/python requirements.txt
+	uv pip sync requirements.txt
+
+requirements.txt: requirements.in .venv/bin/python
+	uv pip compile requirements.in -o requirements.txt --python-version 3.9
+
+get_new_package: sync
+	.venv/bin/python get_new_package.py
