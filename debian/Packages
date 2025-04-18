@@ -113,17 +113,17 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-ptb
-Version: 0.0.137
+Version: 0.0.138
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
 Installed-Size: 255744
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-ptb-0.0.137.deb
-Size: 101963514
-MD5sum: b320055f47487ee981ac26f196f5de1f
-SHA1: 052dc77e688f1153cfb9949884fd744e35898c5b
-SHA256: 9a31f1c877593dd3698d2f3c3946c29de7c3105c8da1f44440e113315145fc10
+Filename: ./pool/discord-ptb-0.0.138.deb
+Size: 101963486
+MD5sum: d1254662923854b1d77d14dacb7f1c16
+SHA1: 45a4eb8c311fb00ee072b8ce25e6cdb8c7c0f102
+SHA256: 33c6c2c544d66cd8cb321e3bc4e80743b0397893cb94bdd6b7ef9bdba7ed8169
 Section: net
 Priority: optional
 Homepage: https://discord.com
