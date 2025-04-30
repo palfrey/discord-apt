@@ -12,6 +12,10 @@
       "groupSlug": "all",
       "separateMajorMinor": false,
       "automerge": true
-    }
+    },
+    {
+      "matchPackageNames": ["uv"],
+      "enabled": false
+    },
   ]
 }
