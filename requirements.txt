@@ -2,7 +2,7 @@
 #    uv pip compile requirements.in -o requirements.txt --python-version 3.9
 certifi==2025.4.26
     # via requests
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 idna==3.10
     # via requests
