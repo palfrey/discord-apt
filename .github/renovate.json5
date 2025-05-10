@@ -5,17 +5,19 @@
     "replacements:all",
     "workarounds:all"
   ],
+  // We want major versions or security updates, the rest we really don't care about
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "groupName": "all dependencies",
-      "groupSlug": "all",
-      "separateMajorMinor": false,
-      "automerge": true
+      matchUpdateTypes: ["patch", "minor"],
+      disable: true
     },
     {
-      "matchPackageNames": ["uv"],
-      "enabled": false
-    },
-  ]
+      "matchPackageNames": ["*"],
+      "automerge": true
+    },    
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true
 }
