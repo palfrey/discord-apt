@@ -9,11 +9,11 @@
   "packageRules": [
     {
       matchUpdateTypes: ["patch", "minor"],
-      disable: true
+      enabled: false
     },
     {
-      "matchPackageNames": ["*"],
-      "automerge": true
+      matchPackageNames: ["*"],
+      automerge: true
     },    
   ],
   "vulnerabilityAlerts": {
