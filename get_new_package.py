@@ -3,6 +3,7 @@ from pathlib import Path
 import shutil
 import requests
 from sys import exit, argv
+from packaging.version import Version
 
 # Constants
 ###########
@@ -36,7 +37,7 @@ def get_all_packages(json_package_path: str, base_url: str) -> None:
         existing_packages = json.load(raw_packages)    
     if filename not in packages or (len(argv) > 1 and argv[1] == "--force"):
         existing_packages[filename] = url
-        sorted_keys = sorted(existing_packages.keys())
+        sorted_keys = sorted(existing_packages.keys(), key=lambda name: Version(name.split("-")[1].replace(".deb", "")))
         while len(existing_packages) > MAX_PACKAGES:
             key = sorted_keys[0]
             del existing_packages[key]

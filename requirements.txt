@@ -6,6 +6,8 @@ charset-normalizer==3.4.1
     # via requests
 idna==3.10
     # via requests
+packaging==25.0
+    # via -r requirements.in
 requests==2.32.4
     # via -r requirements.in
 urllib3==2.5.0

@@ -22,5 +22,8 @@ sync: .venv/bin/python requirements.txt
 requirements.txt: requirements.in .venv/bin/python
 	uv pip compile requirements.in -o requirements.txt --python-version 3.9
 
-get_new_package: sync
+force_get_new_package: sync
 	.venv/bin/python get_new_package.py --force
+
+get_new_package: sync
+	.venv/bin/python get_new_package.py
