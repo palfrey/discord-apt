@@ -18,17 +18,17 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord
-Version: 0.0.98
+Version: 0.0.101
 Architecture: amd64
 Maintainer: Discord Maintainer Team <native-team@discord.com>
-Installed-Size: 263156
+Installed-Size: 263096
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.98.deb
-Size: 104908628
-MD5sum: c166c27e72b1ca85b2b1246ca0435a0a
-SHA1: 9bfa19340424b8aa417b654d0fe5a1c064437c86
-SHA256: f2a45d67b9c3d9a417a32dba251b56b507550e4a1a751182f885082f2a9ec772
+Filename: ./pool/discord-0.0.101.deb
+Size: 104894144
+MD5sum: 9fc100f91a02e90ef10b3a1999081383
+SHA1: 6e070263696bf5943a7794985564bebb2af1beed
+SHA256: 5c74185eab3746cc8af62cbef457092bc9a4b343ae19578a5f7496dcb289594a
 Section: net
 Priority: optional
 Homepage: https://discord.com
