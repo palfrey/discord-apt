@@ -46,7 +46,7 @@ jobs:
         run: |
             python get_new_package.py --force
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v4.0.0
         with:
           # Upload entire repository
           path: '.'
