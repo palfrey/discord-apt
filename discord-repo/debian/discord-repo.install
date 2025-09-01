@@ -1,2 +1,2 @@
 discord.list /etc/apt/sources.list.d
-discord-apt.gpg.asc /etc/apt/trusted.gpg.d
+discord-apt.gpg.asc /usr/share/keyrings
