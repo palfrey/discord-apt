@@ -4,7 +4,7 @@ As has been [repeatedly asked for](https://support.discord.com/hc/en-us/communit
 
 ## Usage instructions
 
-1. Download the file https://palfrey.github.io/discord-apt/discord-repo_1.0_all.deb and install it (e.g. `sudo dpkg -i discord-repo_1.0_all.deb` or whatever graphical tool you use for .deb files)
+1. Download the file https://palfrey.github.io/discord-apt/discord-repo_1.1_all.deb and install it (e.g. `sudo dpkg -i discord-repo_1.1_all.deb` or whatever graphical tool you use for .deb files)
 2. `sudo apt-get update`
 3. Install the desired version
 

@@ -1,3 +1,10 @@
+discord-repo (1.1) UNRELEASED; urgency=medium
+
+  * New GPG key (which doesn't expire)
+  * Mark key as used for signed-by
+
+ -- Tom Parker-Shemilt <palfrey@tevp.net>  Mon, 01 Sep 2025 22:13:50 +0100
+
 discord-repo (1.0) unstable; urgency=medium
 
   * Initial release.
