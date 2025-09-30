@@ -56,25 +56,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-canary
-Version: 0.0.761
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 263128
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.761.deb
-Size: 104928278
-MD5sum: 1fecdb467217c399d16b419e76a4cb35
-SHA1: 30a42f20a2c990b111e7b045dd151bb8790d44be
-SHA256: d33490cc2f1db0b842bdf4f7a399a791d8a7e37fd295fa1ad385bcb2be6e59d9
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-canary
 Version: 0.0.762
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -105,6 +86,25 @@ Size: 104928300
 MD5sum: 03cc526ad0053b2ac114838e9c7a185d
 SHA1: efa1b183f0725acb2f8266eb2d41dacb5e8b9e77
 SHA256: 7a9e4cdc12ef51dafc8c6ec5f098f3bc4856afb49426858c31f24aac3728fbec
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-canary
+Version: 0.0.764
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 263124
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-canary-0.0.764.deb
+Size: 104928314
+MD5sum: dad5bfd7c32e47c59a1d8d08730dbcce
+SHA1: 77e84ea663df15e2730290002cca51bd6aaedb6e
+SHA256: 4bed4bcdb743b4c534ce87d502f6b5efdad92a220de815754555730aaeb4cb4e
 Section: net
 Priority: optional
 Homepage: https://discord.com
