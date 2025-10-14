@@ -1,23 +1,4 @@
 Package: discord
-Version: 0.0.109
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 263096
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.109.deb
-Size: 104895404
-MD5sum: 101dc8ddf7d7232f3aaa5368a9dd94a5
-SHA1: 2bf9f31331a523371dfe27452b1107988e550708
-SHA256: 4b06610501dfd7ba3f4407398d40d30cd0afe34895003ac756130668e1922471
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord
 Version: 0.0.110
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -48,6 +29,25 @@ Size: 104895186
 MD5sum: f831036419a3066b4bce80335f4e0c88
 SHA1: 101b06efc59708c7843b1aba3f42cefb587f04eb
 SHA256: c8d665c1a7b2a2f0399f3dd6ce2b4ab9c876aecb3627f1045e3c135b32533ce2
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord
+Version: 0.0.112
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 263096
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-0.0.112.deb
+Size: 104895434
+MD5sum: b1315972f2217cccf9c928c62306b359
+SHA1: c1fd6af58279f5deef9b10676d8686a6b0158acb
+SHA256: 78572d044a11b136af2c4692917f4d7b8bcd4ffa9ef434233403e3a8b6722f44
 Section: net
 Priority: optional
 Homepage: https://discord.com
