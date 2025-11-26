@@ -4,7 +4,8 @@ As has been [repeatedly asked for](https://support.discord.com/hc/en-us/communit
 
 ## Usage instructions
 
-1. Download the file https://palfrey.github.io/discord-apt/discord-repo_1.1_all.deb and install it (e.g. `sudo dpkg -i discord-repo_1.1_all.deb` or whatever graphical tool you use for .deb files)
+1. Download the file https://palfrey.github.io/discord-apt/discord-repo_1.2_all.deb and install it (e.g. `sudo dpkg -i discord-repo_1.2_all.deb` or whatever graphical tool you use for .deb files)
+   * Note this uses a [debian.sources](https://wiki.debian.org/SourcesList#debian.sources_format) format repo entry, but all modern versions of apt should support this. This repo doesn't support anything that this doesn't work with.
 2. `sudo apt-get update`
 3. Install the desired version
 

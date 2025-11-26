@@ -1,1 +1,0 @@
-deb [signed-by=/usr/share/keyrings/discord-apt.gpg.asc] https://palfrey.github.io/discord-apt/debian/ ./

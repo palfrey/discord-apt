@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://palfrey.github.io/discord-apt/debian/
+Suites: ./
+Components: 
+Signed-By: /usr/share/keyrings/discord-apt.gpg.asc
