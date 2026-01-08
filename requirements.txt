@@ -10,5 +10,5 @@ packaging==25.0
     # via -r requirements.in
 requests==2.32.4
     # via -r requirements.in
-urllib3==2.6.0
+urllib3==2.6.3
     # via requests
