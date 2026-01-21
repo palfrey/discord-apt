@@ -1,23 +1,4 @@
 Package: discord
-Version: 0.0.118
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 270676
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.118.deb
-Size: 108129322
-MD5sum: e1e54612f17b690429c650b00387f48b
-SHA1: cb7c8a5e5379416f725902aea4c869ec8a093daa
-SHA256: 3ca6107e19203eb20d4b5e68582f093911511ef4a027cc0239a0853aa8f4d563
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord
 Version: 0.0.119
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -55,18 +36,18 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
-Package: discord-canary
-Version: 0.0.851
+Package: discord
+Version: 0.0.121
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 270712
+Installed-Size: 270680
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.851.deb
-Size: 108161804
-MD5sum: 4dee457442fe9ed525d5637e680173a7
-SHA1: 11fc12b9219892f50f64400277c4d4615cb18308
-SHA256: c6a2dd8e763a36ec6431c6052016369b6f157213abbc6a3f87bbca1ea3068756
+Filename: ./pool/discord-0.0.121.deb
+Size: 108129218
+MD5sum: 8b9a19ae80e2b963237563d2377b88e8
+SHA1: e1af79f8caa681d9a663762067f4090dbde7992e
+SHA256: ae5a3c0ac3d3a0e87378297b2506914cd3cd562623e0c8f363a805ccfb502da7
 Section: net
 Priority: optional
 Homepage: https://discord.com
@@ -112,18 +93,18 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
-Package: discord-ptb
-Version: 0.0.170
+Package: discord-canary
+Version: 0.0.854
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 270680
+Installed-Size: 270712
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-ptb-0.0.170.deb
-Size: 108129122
-MD5sum: f2765aeebf370a80f63942b701af8b16
-SHA1: 42585dbd7a34b67f6b12149286d564e7e5e16182
-SHA256: 9f275e9a022c51b1c4c78fc9ac36aeaeb5c5b9e22d820416845d3b1edd2e23af
+Filename: ./pool/discord-canary-0.0.854.deb
+Size: 108161800
+MD5sum: f21ebb79c9bc288f29e712b75ffef602
+SHA1: f74751af2e4771bbe8762ea047e06e87a843057a
+SHA256: 0a4af678ddaaf4ccda791f1157d58f78c533ca7ba9c82f4315063af3f3910f07
 Section: net
 Priority: optional
 Homepage: https://discord.com
@@ -162,6 +143,25 @@ Size: 108129388
 MD5sum: d2e8696c2ef139e4444ae05092ce1643
 SHA1: b8d83db179711fdf6b1e1b6b591bd85fa4d02d9e
 SHA256: 6eb37209f486273dd3b2193c828ed7f81f8ceeadd2555de1003de612381f8cd8
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-ptb
+Version: 0.0.173
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 270684
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-ptb-0.0.173.deb
+Size: 108129016
+MD5sum: 1deb7bca58cb7287beb61388b600e4b4
+SHA1: a10caf4db796ab3818d35ec46aa67ffd9786aa66
+SHA256: e2817e83d35852a809eddfefe4958f33db27feb57fba3d60d1b6f9b4e67089e5
 Section: net
 Priority: optional
 Homepage: https://discord.com
