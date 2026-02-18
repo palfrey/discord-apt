@@ -1,23 +1,4 @@
 Package: discord
-Version: 0.0.122
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 270684
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.122.deb
-Size: 108129244
-MD5sum: e0c97769302410e5f881600fd9bd15c8
-SHA1: 98e34c413d18f9972f5ab7f61299cb4f505f6fb2
-SHA256: 152219b721a35094fa60936d0b05b0a56d5202dd734be9e152568a85179c3794
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord
 Version: 0.0.123
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -55,18 +36,18 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
-Package: discord-canary
-Version: 0.0.868
+Package: discord
+Version: 0.0.125
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 270712
+Installed-Size: 269148
 Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
 Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.868.deb
-Size: 108161842
-MD5sum: 5a9b52d4f810f76978c0471e908449e0
-SHA1: 2c9469ac4cfaf8783d6755a06026d7ddc096ac3a
-SHA256: 508ad47e6f867e71f57a52e26d19d287bdf736c926cb90715b9396207da28ed9
+Filename: ./pool/discord-0.0.125.deb
+Size: 107619816
+MD5sum: ede00b186608eb5dba60c0c8826b6d30
+SHA1: 7d04155c627daf0d0b1afea439d39d9f4a894822
+SHA256: ef8f1878a7cf09d8fc216f6b678951adc7f23ebd6e20e19922e8f8b6565e208f
 Section: net
 Priority: optional
 Homepage: https://discord.com
@@ -105,6 +86,25 @@ Size: 107653420
 MD5sum: 56f87ed50966c074f15ef829e61ee3ae
 SHA1: 01350ea3af6ff3db67fdfed1f04b8a6f4e7c1a5b
 SHA256: 3c106fb193f56a1b190a08c2ee64b96a02caaf7868081f7d8c17e2dc8f8cd979
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-canary
+Version: 0.0.872
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 269180
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-canary-0.0.872.deb
+Size: 107653400
+MD5sum: 335b87cb900c10e44ab0bc10140244d2
+SHA1: d6fd1d9ac16d7d7e71061fe5a62077add477fdf2
+SHA256: 2a8e95a62bd3b079883d5bb5fbd1f1adb221391cf5265ca1df4d5b47ce7cb4d5
 Section: net
 Priority: optional
 Homepage: https://discord.com
