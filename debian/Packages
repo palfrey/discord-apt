@@ -113,25 +113,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-ptb
-Version: 0.0.175
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 270684
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-ptb-0.0.175.deb
-Size: 108129034
-MD5sum: 32c63fa1a5ec24e8958c05847e26e84a
-SHA1: 3de295b2cb4a8c5a31ff6612a4bf5918667c750a
-SHA256: 7199b09632af332123a455ab05f389dca251db5ae88775a5940b307b4abd5737
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-ptb
 Version: 0.0.176
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -162,6 +143,25 @@ Size: 107620296
 MD5sum: 12e0723a337fb612c83c10cd9aad2e78
 SHA1: 0b64ae25d1f1d3a9a0ee2e2581954cb30eaef825
 SHA256: 327e830b1cd4f067e22a1a59a179cdd5b9e46fab4a393113c4fd95fcdbb63349
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-ptb
+Version: 0.0.178
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 269148
+Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
+Recommends: libappindicator1 | libayatana-appindicator1
+Filename: ./pool/discord-ptb-0.0.178.deb
+Size: 107620354
+MD5sum: ecb8d1ca0c4d36add59f666d6d40d655
+SHA1: f3e875e63f02bb8f3494dacef3d20ada44b6c78d
+SHA256: fb95505fa518b2100f49a8b442805923a7dfb2ef3d6cd89f266944352fe022b9
 Section: net
 Priority: optional
 Homepage: https://discord.com
