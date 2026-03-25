@@ -8,7 +8,7 @@ idna==3.10
     # via requests
 packaging==26.0
     # via -r requirements.in
-requests==2.32.4
+requests==2.33.0
     # via -r requirements.in
 urllib3==2.6.3
     # via requests
