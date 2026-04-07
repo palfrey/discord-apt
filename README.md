@@ -17,6 +17,16 @@ As has been [repeatedly asked for](https://support.discord.com/hc/en-us/communit
 
 (I have no interest in PRs to improve these instructions or helper scripts for this. They're not very hard, but I don't want to provide free support here for anyone who can't follow those instructions. If you disagree with this, either bug Discord into supporting this themselves or fork this repo and do whatever in your fork.)
 
+## Disabling Discord's built-in update check
+
+Discord has a built-in update check that runs on startup. If a new version has been released but your system hasn't picked it up via `apt` yet, Discord will prompt you to update manually and won't let you proceed without doing so. To disable this check, add the following to `~/.config/discord/settings.json`:
+
+```json
+"SKIP_HOST_UPDATE": true
+```
+
+This allows Discord to start even when a newer version is available, with updates arriving during the next regular `apt` update cycle.
+
 ## Manual update instructions
 
 This should not be needed, as `.github/workflows/update.yml` should do this, but just in case..
