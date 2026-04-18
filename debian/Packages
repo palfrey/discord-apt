@@ -56,25 +56,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-canary
-Version: 0.0.962
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 268164
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-canary-0.0.962.deb
-Size: 107305416
-MD5sum: 63997e9ff678c810c8355025094e6e5c
-SHA1: 75591e3e01a413679e20f27ee398ba8c5268bf3b
-SHA256: ce3c5255bd4ce3c9462e5964bfec38a0e870f711fb47d4ce71e4953b590aceeb
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-canary
 Version: 0.0.963
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -105,6 +86,25 @@ Size: 2211106
 MD5sum: bbf198cf6ed87f08c9ce1f8356ba9f4c
 SHA1: ea0bc9bd781a5f67950ec6b24919b517178c945a
 SHA256: b630ab24ab07eba24aac95ccd8859c3a47f97370230be479eefc869b4e567276
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-canary
+Version: 1.0.927
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 4312
+Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
+Recommends: libunity9, libva2, libpipewire-0.3-0
+Filename: ./pool/discord-canary-1.0.927.deb
+Size: 2211162
+MD5sum: c0993a84d8a195a159ea907db3414891
+SHA1: 34d6783b563b750d9120aea637a6e0b7c2482ec5
+SHA256: d55d97156516b826e8956b8648338dd8ff3672fc16f07778b20f475b4409a38a
 Section: net
 Priority: optional
 Homepage: https://discord.com
