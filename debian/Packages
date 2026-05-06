@@ -1,23 +1,4 @@
 Package: discord
-Version: 0.0.134
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 267944
-Depends: libc6, libasound2, libatomic1, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6
-Recommends: libappindicator1 | libayatana-appindicator1
-Filename: ./pool/discord-0.0.134.deb
-Size: 107234996
-MD5sum: 804196d264ce5e409404ec5e96d3ef93
-SHA1: 36dc3ad1b79d937b743fd3da88aaf9b2322b195b
-SHA256: 1b9da04608a38dfa0af466baca8e90c63918f86b737b1ace9bb1748fcf50733e
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord
 Version: 0.0.135
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -44,10 +25,10 @@ Installed-Size: 4280
 Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
 Recommends: libunity9, libva2, libpipewire-0.3-0
 Filename: ./pool/discord-1.0.136.deb
-Size: 2178048
-MD5sum: 2a97eb542cbb56731b1b1c0c6de701bc
-SHA1: be5a040c634e241782af62f37406ae28b020ddc4
-SHA256: b5cf66221b46f3f744ea571fbf774def8425e791a491f3b01874305e2d307715
+Size: 2179130
+MD5sum: 07c924664cd4528380182398cde92616
+SHA1: 5e917ac6fd4195e5ef4333fd12410a4d00f0889f
+SHA256: 42c98b0a2d20f827b2fb5dec77e3f90ed7e464f2e2c06f9cea1b3ea025d53b7b
 Section: net
 Priority: optional
 Homepage: https://discord.com
@@ -55,18 +36,18 @@ Description: Chat for Communities and Friends
  Discord is the easiest way to communicate over voice, video, and text. Chat,
  hang out, and stay close with your friends and communities.
 
-Package: discord-canary
-Version: 1.0.1017
+Package: discord
+Version: 1.0.137
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 4312
+Installed-Size: 4280
 Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
 Recommends: libunity9, libva2, libpipewire-0.3-0
-Filename: ./pool/discord-canary-1.0.1017.deb
-Size: 2211142
-MD5sum: 068c557b9db36c854e0b72c613238b8a
-SHA1: 0edda82557db6776ccd43e842a1cc6b761a98ff7
-SHA256: 63ab3e192cfaf8665058c77085b65f86b65159d64d9ec8f1ad817447d841a08e
+Filename: ./pool/discord-1.0.137.deb
+Size: 2179140
+MD5sum: 80faaa61807103c912be0a2fe62f8748
+SHA1: cfac1ec4b8ebb4d7363324667a84a6bf4a528948
+SHA256: 77b549bff6a96dcd9958fbf82c383b18dcabf2b323e3e979afe7e15e5e3595e5
 Section: net
 Priority: optional
 Homepage: https://discord.com
@@ -105,6 +86,25 @@ Size: 2212156
 MD5sum: be8009b7c559d777ba0ed3e36336d781
 SHA1: e9ed3dc43ba6ee4bf9b2b41e17c45150f4b964e8
 SHA256: 0f73ba91e913623195249a483cac6e7a6615cd7fe93615ba5dd05a4bee671f4a
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-canary
+Version: 1.0.1027
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 4312
+Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
+Recommends: libunity9, libva2, libpipewire-0.3-0
+Filename: ./pool/discord-canary-1.0.1027.deb
+Size: 2212164
+MD5sum: dd568e5fd5a169c30be501d22ad75e0e
+SHA1: cbf5cb0b9e792fc3ffbff482c6017649ef8d560e
+SHA256: f3477b5e3428f62cc4359d1f758903f94e4ec04ac6d3c10366d2b9d529f5ab4e
 Section: net
 Priority: optional
 Homepage: https://discord.com
