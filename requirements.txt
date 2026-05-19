@@ -4,7 +4,7 @@ certifi==2026.1.4
     # via requests
 charset-normalizer==3.4.1
     # via requests
-idna==3.10
+idna==3.15
     # via requests
 packaging==26.0
     # via -r requirements.in
