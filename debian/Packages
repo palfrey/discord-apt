@@ -56,25 +56,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-canary
-Version: 1.0.1104
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 4312
-Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
-Recommends: libunity9, libva2, libpipewire-0.3-0
-Filename: ./pool/discord-canary-1.0.1104.deb
-Size: 2212584
-MD5sum: 5b4fb009d5957641703e82b3e7a510ae
-SHA1: 92bdc08f83a6326f3191cdea018972b3501b6cb6
-SHA256: 4fbabfd030ce6e52d89a6936151b19e1978d8921c523c6d2da2c1ffa5723e915
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-canary
 Version: 1.0.1107
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -105,6 +86,25 @@ Size: 2212574
 MD5sum: 1a9b7ef48d5d8aeeb62ee8c96b6bc6dc
 SHA1: d745263a18989d6a01bc3133f7aafd5d178ce181
 SHA256: cefde0963410b6f33821a778e0b69f9b9250eb17cd409aa90b2b57e9d78e8c75
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-canary
+Version: 1.0.1112
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 4312
+Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
+Recommends: libunity9, libva2, libpipewire-0.3-0
+Filename: ./pool/discord-canary-1.0.1112.deb
+Size: 2212584
+MD5sum: 790bf8385ae6126101a74fa9d9427a82
+SHA1: 08ba3cc784da3290d42ec171330e27d79446c3c3
+SHA256: c6e450662c5903a23fb9a94a53ee2064a15d6c1bee05103ab255f442f0e3f35c
 Section: net
 Priority: optional
 Homepage: https://discord.com
