@@ -1,23 +1,4 @@
 Package: discord
-Version: 1.0.154
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 4276
-Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
-Recommends: libunity9, libva2, libpipewire-0.3-0
-Filename: ./pool/discord-1.0.154.deb
-Size: 2178788
-MD5sum: 5303de2196a6dd360df840245f196d9c
-SHA1: 672bed6419aa8c26e0bc483f3e8c84423cee51a9
-SHA256: ba1aef3fdcfe9f102685eedeff7d7e357a1e6eefd2ed5bdce77cdbda31810428
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord
 Version: 1.0.155
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -48,6 +29,25 @@ Size: 2179436
 MD5sum: c0eca575b165d106190c390c1172858a
 SHA1: 4732470f25eae0c0282653f43ce7b709b08ace47
 SHA256: 88bd5dce5bba6af0499d202ddc3f75e9de642060cb5389191569c42be444fae9
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord
+Version: 1.0.157
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 4280
+Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
+Recommends: libunity9, libva2, libpipewire-0.3-0
+Filename: ./pool/discord-1.0.157.deb
+Size: 2179722
+MD5sum: 94bb8831c3ac68753cc057929d7ccd5d
+SHA1: ed8f43284e908452eb75bb779c8c875cf4a41ada
+SHA256: ed8773b0b85838dc8e18ec2317ac55bdc6fc7b6af0cc46109ceba002764ffbaa
 Section: net
 Priority: optional
 Homepage: https://discord.com
