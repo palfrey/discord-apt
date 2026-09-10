@@ -113,25 +113,6 @@ Description: Chat for Communities and Friends
  hang out, and stay close with your friends and communities.
 
 Package: discord-ptb
-Version: 1.0.211
-Architecture: amd64
-Maintainer: Discord Maintainer Team <noreply@discord.com>
-Installed-Size: 4280
-Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
-Recommends: libunity9, libva2, libpipewire-0.3-0
-Filename: ./pool/discord-ptb-1.0.211.deb
-Size: 2179480
-MD5sum: bbc6ce2e6ec24dfec379129b8573c4a0
-SHA1: afedb7f79108503ef0a936874276e201dbc36749
-SHA256: 6cb5d08b54e35538ed7020ded7a3a5124085cad249f80c5dbf59eb34955b186c
-Section: net
-Priority: optional
-Homepage: https://discord.com
-Description: Chat for Communities and Friends
- Discord is the easiest way to communicate over voice, video, and text. Chat,
- hang out, and stay close with your friends and communities.
-
-Package: discord-ptb
 Version: 1.0.212
 Architecture: amd64
 Maintainer: Discord Maintainer Team <noreply@discord.com>
@@ -162,6 +143,25 @@ Size: 2179752
 MD5sum: b766aabd4db8ee8d7673c14115fb737c
 SHA1: 0ff210afe073cf6994d5f971bb61093b3e145e5e
 SHA256: 8dc772336d92a47523ac7dcde6732bd63238565470952c59b14d947aecf685f5
+Section: net
+Priority: optional
+Homepage: https://discord.com
+Description: Chat for Communities and Friends
+ Discord is the easiest way to communicate over voice, video, and text. Chat,
+ hang out, and stay close with your friends and communities.
+
+Package: discord-ptb
+Version: 1.0.214
+Architecture: amd64
+Maintainer: Discord Maintainer Team <noreply@discord.com>
+Installed-Size: 4280
+Depends: libc6, libasound2, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libatomic1, libcairo2, libdbus-1-3, libexpat1, libgbm1, libglib2.0-0, libgtk-3-0, libnotify4, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libudev1, libx11-6, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxkbcommon0, libxrandr2
+Recommends: libunity9, libva2, libpipewire-0.3-0
+Filename: ./pool/discord-ptb-1.0.214.deb
+Size: 2179756
+MD5sum: 6400cb57734c2dba7cedc535e3360729
+SHA1: 1dc5a3d5399d3f245ff89f2fcd6e9e99f4ca4b3e
+SHA256: d68dbc4ea57b7e05074498d17271d95727f4a560a5cca601b5418a7989982f6a
 Section: net
 Priority: optional
 Homepage: https://discord.com
