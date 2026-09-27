@@ -36,6 +36,7 @@ jobs:
         run: |
             python get_new_package.py || exit 0
             ls -l debian/pool
+            sudo apt install -y apt-utils
             make debian/Release.gpg
       - name: Commit and push if changed
         run: |-
